@@ -1,7 +1,7 @@
 ---
 title: "A propos"
 description: "A propos de ce site"
-author: "Pixfri"
+author: "Jean Letessier"
 aliases: ["contact"]
 date: 2023-08-03T11:31:48+02:00
 draft: false

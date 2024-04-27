@@ -1,7 +1,7 @@
 ---
 title: "Les Blocks et les BlockStates dans Minecraft"
 date: "2023-09-27T19:57:00+02:00"
-author: "Pixfri"
+author: "Jean Letessier"
 description: "Que sont les blocks et les blockstates dans Minecraft ? Comment sont-ils utilisés ? Quelles sont les différences entre les deux ?"
 draft: false
 aliases: [
@@ -12,6 +12,7 @@ tags: [
   "Modding",
   "Minecraft"
 ]
+autonumber: true
 ---
 
 ## Plan de l'article

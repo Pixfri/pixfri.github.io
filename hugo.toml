@@ -48,7 +48,7 @@ favicon = "favicon.ico"
     url = "/plan_du_site"
 
   [[params.menu]]
-    name = "Curiculum vitae"
+    name = "Curriculum vitae"
     url = "/cv"
 
 [markup]

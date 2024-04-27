@@ -1,12 +1,12 @@
 ---
 title: "Plan du site"
 description: "Le plan du site"
-author: "Pixfri"
+author: "Jean Letessier"
 date: 2024-01-19T17:09:37+01:00
 draft: false
+autonumber: true
+readTime: true
 ---
-
-# Plan du site
 
 Voici le plan du site en fonction de ce qui vous intéresse :
 
@@ -14,7 +14,7 @@ Voici le plan du site en fonction de ce qui vous intéresse :
     1.1 [Le modding Minecraft](#le-modding-minecraft)  
     1.2 [Les resource packs Minecraft](#les-resource-packs-minecraft)  
 
-# Minecraft
+## Minecraft
 
 Si les articles qui vont intéressent son les articles sur Minecraft en général, les articles auront le tag [Minecraft](/tags/minecraft). 
 
