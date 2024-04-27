@@ -11,4 +11,4 @@ Voici les informations sur ce site :
 
 Ce site utilise :
 1. [Hugo](https://github.com/gohugoio/hugo) pour générer le site
-2. [Terminal](https://github.com/panr/hugo-theme-terminal) comme thème
+2. [Typo](https://github.com/tomfran/typo) comme thème

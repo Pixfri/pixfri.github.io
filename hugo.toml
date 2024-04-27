@@ -1,100 +1,56 @@
 baseURL = "https://pixfri.github.io"
-title = "Pixfri"
-theme = "terminal"
+title = "Jean Letessier"
+theme = "typo"
 paginate = 5
 languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
+disableKinds = ['taxonomy']
+
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+favicon = "favicon.ico"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  math = true
 
-  # show selector to switch language
-  showLanguageSelector = true
+  homeIntro = true
+  homeIntroTitle = "Bonjour !"
+  homeIntroContent = """
+  Je me nomme Jean Letessier. Je suis un développeur interessé par le modding, le jeu vidéo et le rendu graphique.
+  J'utilise principalement le Java et le C++, quelques fois ce dernier accompagné de Vulkan pour faire du rendu graphique.
+  """
 
-  # set theme to full screen width
-  fullWidthTheme = false
+  homeCollectionTitle = "Posts"
+  homeCollection = 'posts'
 
-  # center theme with default width
-  centerTheme = true
+  paginationSize = 100
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/Pixfri"
 
-  # set posts to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then posts will automatically get the last updated
-  showLastUpdated = false
+  [[params.social]]
+    name = "YouTube"
+    url = "https://youtube.com/@pixfri"
 
-  # set a custom favicon (default is a `themeColor` square)
-  favicon = "images/profile-picture.png"
+  [[params.menu]]
+    name = "Page d'accueil"
+    url = "/"
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  updatedDatePrefix = "Mis à jour le"
+  [[params.menu]]
+    name = "Articles"
+    url = "/posts"
 
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
+  [[params.menu]]
+    name = "Plan du Site"
+    url = "/plan_du_site"
 
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
+  [[params.menu]]
+    name = "Curiculum vitae"
+    url = "/cv"
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
-
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
-
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "Pixfri"
-  site = "https://twitter.com/pixfri4"
-
-[languages]
-  [languages.fr]
-    languageName = "Français"
-    title = "Pixfri"
-    copyright = "Ce blog © 2024 par Jean Letessier est distribué sous la license CC BY-NC 4.0 "
-
-  [languages.fr.params]
-    subtitle = "Un blog sur la programmation"
-    owner = "Pixfri"
-    keywords = ""
-    menuMore = "Afficher plus"
-    readMore = "Lire plus"
-    readOtherPosts = "Lire d'autres articles"
-    newerPosts = "Articles plus récents"
-    olderPosts = "Articles plus anciens"
-    missingContentMessage = "Aucun contenu n'a été trouvé avec ce lien"
-    missingBackButtonLabel = "Retour à la page d'accueil"
-    minuteReadingTime = "Minutes de lecture"
-    words = "mots"
-
-    [languages.fr.params.logo]
-      logoText = "Pixfri"
-      logoHomeLink = "/"
-
-    [languages.fr.menu]
-      [[languages.fr.menu.main]]
-        identifier = "about"
-        name = "À propos"
-        url = "/about"
-
-      [[languages.fr.menu.main]]
-        identifier = "site_plan"
-        name = "Plan du site"
-        url = "/plan_du_site"
+[markup]
+  [markup.highlight]
+    style = "algol"
