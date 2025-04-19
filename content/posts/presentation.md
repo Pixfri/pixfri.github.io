@@ -16,17 +16,15 @@ readTime: true
 ---
 
 ## Qui suis-je ?
-Comme il est écrit sur [mon profile GitHub](https://github.com/Pixfri), je me nomme Jean Letessier.
 
-## Quels sont les langages que j'utilise ?
-J'utilise principalement le Java pour développer des mods Minecraft et le C++.
+Je m'appelle Jean LETESSIER, et je fais de la programmation graphique et du développement de moteur de jeu.
 
-## Sur quels projets est-ce que je travaille ?
-Je travaille actuellement sur mon moteur de jeu nommé [Flashlight Engine](https://github.com/Pixfri/FlashlightEngine).
+## Que sont mes projets ?
+Je travaille actuellement sur mon propre moteur de jeu nommé [FlashlightEngine](https://github.com/Pixfri/FlashlightEngine). J'utilise pour celui-ci le langage C++. Ce projet me permet d'expérimenter et d'accumuler de l'expérience avec les technologies utilisées dans le domaine du développement de moteurs de jeux-vidéo, notmmaent les APIs graphiques [Vulkan](https://vulkan.org/) et Direct3D 12.
 
-Je fais parfois du modding sur minecraft.
-
-## Quand et comment ai-je commencé à programmer ?
-J'ai commencé à programmer dès mon arrivée au collège. Mon frère m'avait introduit aux bases du Java, j'ai ensuite continué
-mon apprentissage grâce à diverses resources sur internet. Pour le C++ je m'y suis moi-même 
-intéressé et je l'ai appris grâce au cours de [Zeste de Savoir](https://zestedesavoir.com/contenus/beta/822/la-programmation-en-c-moderne/).
+## Mon expérience avec la programmation
+J'ai commencé à programmer dès mon arrivée au collège en 2020. J'ai appris le Java en autodidacte à travers différents projets de plugins et mods sur le jeu Minecraft. J'ai compris à travers ces
+projets que le rendu graphique et le jeu vidéo sont les domaines que je préfère en programmation. Je suis plus tard passé au langage C++ qui est devenu mon langage de programmation principal, 
+et que j'utilise à ce jour pour mes projets. Étant passionné par le rendu graphique, j'ai commencé à apprendre OpenGL, que j'ai rapidement abandonné pour son successeur [Vulkan](https://vulkan.org),
+que j'ai choisi non seulement pour le contrôle beaucoup plus important sur le matériel, mais aussi car Vulkan fait partie des deux APIs graphiques les plus répandues dans le développement de moteurs
+graphiques. Je me suis plus tard intéressé à Direct3D 12 de Microsoft, pour sa présence importante aux côtés de Vulkan dans le jeu vidéo.

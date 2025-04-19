@@ -18,8 +18,7 @@ favicon = "favicon.ico"
   homeIntro = true
   homeIntroTitle = "Bonjour !"
   homeIntroContent = """
-  Je me nomme Jean Letessier. Je suis un développeur interessé par le modding, le jeu vidéo et le rendu graphique.
-  J'utilise principalement le Java et le C++, quelques fois ce dernier accompagné de Vulkan pour faire du rendu graphique.
+  Je m'appelle Jean LETESSIER, et je fais de la programmation graphique et du développement de moteur de jeu en C++. 
   """
 
   homeCollectionTitle = "Posts"
@@ -50,6 +49,10 @@ favicon = "favicon.ico"
   [[params.menu]]
     name = "Curriculum vitae"
     url = "/cv"
+
+  [[params.menu]]
+    name = "Présentation"
+    url = "/posts/presentation"
 
 [markup]
   [markup.highlight]

@@ -1,8 +1,8 @@
 ---
-title: "Curiculum vitae"
+title: "Curiculum vitæ"
 date: "2024-04-27T23:10:21+02:00"
 author: "Jean Letessier"
-description: "Mon curriculum vitae."
+description: "Mon curriculum vitæ."
 draft: false
 categories: [
 "Informations"
@@ -16,16 +16,16 @@ tags: [
 ## Experiences
 
 [Dialog](https://www.dialog.fr/)  
-Stage d'observation  
+Stage d'observation (3ème)  
 Octobre 2023
 
 ## Compétences
 
 ### Langages de programmation
-Java, C++
+C++, Java, GLSL, Slang, HLSL
 
 ### Technologies
-Linux, Git, Vulkan, OpenGL
+Linux, Git, Vulkan, DirectX 12, OpenGL
 
 ### Domaines
-Rendu graphique, modding
+Rendu graphique, développement de jeux-vidéo et de moteur de jeux-vidéo
