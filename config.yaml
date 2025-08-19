@@ -1,0 +1,90 @@
+baseURL: "https://jeanl.is-a.dev"
+languageCode: en-us
+title: Jean Letessier
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Jean Letessier"
+    subtitle: "Hi 👋 I'm Jean, an independant and self-taught graphics programmer from France. I love learning new graphics techniques and sharing my knowledge with others. I have experience with modern low-level graphics APIs, such as **Vulkan & DirectX 12** and I am constantly trying to improve my skills with them. My main project is my own game engine, **Tungsten Engine**, which I am working on since March of 2025. Let's connect and create something awesome together!"
+
+    imageUrl: "home/profilepic.png"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:jean.letessier@protonmail.com"
+    - name: "github"
+      url: "https://github.com/Pixfri"
+    - name: "youtube"
+      url: "https://www.youtube.com/@Pixfri"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
