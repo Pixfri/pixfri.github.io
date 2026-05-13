@@ -1,0 +1,125 @@
+baseURL: "https://jeanl.is-a.dev"
+title: Jean Letessier
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+params:
+  author:
+    name: Jean Letessier
+    email: jean.letessier@protonmail.com
+  
+  keywords: [Blog, Portfolio]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  # for enchanced SEO
+  env: production
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon16x16.ico"
+    favicon32x32: "/favicon/favicon32x32.ico"
+    apple_touch_icon: "/favicon/apple_touch_icon.ico"
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Jean Letessier"
+    subtitle: "Hi 👋 I'm Jean, an independant and self-taught graphics programmer from France. I love learning new graphics techniques and sharing my knowledge with others. I have experience with modern low-level graphics APIs, such as **Vulkan & DirectX 12** and I am constantly trying to improve my skills with them. My main project is my own game engine, **Basalt Engine**, which I am working on since January of 2026. Let's connect and create something awesome together!"
+
+    imageUrl: "home/profilepic.png"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+    #   - name: Resume
+    #     url: ""
+
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:jean.letessier@protonmail.com"
+    - name: "github"
+      url: "https://github.com/Pixfri"
+    - name: "youtube"
+      url: "https://www.youtube.com/@Pixfri"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
