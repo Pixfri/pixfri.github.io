@@ -145,6 +145,10 @@ For the interpreter, I decided to go with zsh, with only a few plugins:
  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
  - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
+![My terminal](/blog/switch-to-linux/terminal.png)
+
+*Don't trust the OS age reported by fastfetch, it's because I reinstalled Linux on a faster driver after I've decided it's becoming my main OS*
+
 ### Games
 
 As said in the list, one of my main usage for my computer is gaming. Thanks to all the work made by the open-source community, but also thanks to Valve doing a lot of work
