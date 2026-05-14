@@ -2,7 +2,7 @@ baseURL: "https://jeanl.is-a.dev"
 title: Jean Letessier
 theme: PaperMod
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false

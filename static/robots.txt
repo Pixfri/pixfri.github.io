@@ -1,0 +1,29 @@
+User-agent: ia_archiver
+User-agent: ia_archiver-web.archive.org
+Allow: /
+Sitemap: https://jeanl.is-a.dev/sitemap.xml
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: Google-Extended
+User-agent: Omgilibot
+User-agent: FacebookBot
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: PerplexityBot
+User-agent: Diffbot
+User-agent: cohere-ai
+User-agent: ImagesiftBot
+User-agent: Omgili
+User-agent: Webzio-Extended
+User-agent:Img2dataset
+User-agent: YouBot
+Disallow: /
+
+User-agent: *
+Allow: /
+Sitemap: https://jeanl.is-a.dev/sitemap.xml
+
