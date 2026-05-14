@@ -13,7 +13,7 @@ canonicalURL: "https://jeanl.is-a.dev/experience/internship-edialog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
