@@ -33,6 +33,10 @@ menu:
       name: Search
       url: /search
       weight: 50
+    - identifier: pgp
+      name: PGP Key
+      url: /pgp
+      weight: 60
 
 params:
   author:
